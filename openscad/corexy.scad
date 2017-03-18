@@ -1,6 +1,7 @@
 include <frame.scad>
 include <MCAD/motors.scad>
 
+/* [CoreXY] */
 
 corexy_beams_offset = 80;
 corexy_nema_width   = 40;

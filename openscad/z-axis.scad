@@ -1,12 +1,16 @@
 include <frame.scad>
 include <MCAD/motors.scad>
 
+/* [Z-axis] */
+
 z_axis_nema_width = 46;
 z_axis_nema_depth = 40;
+
 z_axis_top_offset = 100;
-z_axis_vertical_support_length = 350;
-z_axis_vertical_support_width  = 20;
-z_axis_vertical_support_height = 20;
+z_axis_vertical_support_length = 350;  // [200:5:500]
+
+z_axis_vertical_support_width  = 30;   // [20,30]
+z_axis_vertical_support_height = 30;   // [20,30]
 
 module z_axis_vertical_support() {
     color([0,0,1])

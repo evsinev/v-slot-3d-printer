@@ -1,15 +1,22 @@
 
-frame_x_beam_length  = 400;
-frame_x_beam_width   = 20;
-frame_x_beam_height  = 20;
+/* [Frame] */
 
-frame_y_beam_length  = 400;
-frame_y_beam_width   = 20;
-frame_y_beam_height  = 20;
+// Frame X Beam Length
+frame_x_beam_length  = 400; // [300:5:1000]
 
-frame_support_width  = 20;
-frame_support_height = 20;
-frame_support_length = 550;
+// Frame X Beam Width
+frame_x_beam_width   = 30; // [20, 30, 40]
+
+// Frame X Beam Height
+frame_x_beam_height  = 30; // [20, 30, 40]
+
+frame_y_beam_length  = 400; // [300:5:1000]
+frame_y_beam_width   = 30;  // [20, 30, 40]
+frame_y_beam_height  = 30;  // [20, 30, 40]
+
+frame_support_width  = 30;  // [20, 30, 40]
+frame_support_height = 30;  // [20, 30, 40]
+frame_support_length = 550; // [300:5:1000]
 
 frame_width  = frame_support_width  * 2 + frame_x_beam_width;
 frame_height = frame_support_height * 2 + frame_y_beam_width;

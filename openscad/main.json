@@ -1,0 +1,39 @@
+{
+    "parameterSets": {
+        "20x20": {
+              "z_axis_vertical_support_length" : 350
+            , "z_axis_vertical_support_width"  :  20
+            , "z_axis_vertical_support_height" :  20
+
+            , "frame_x_beam_length" : 400
+            , "frame_x_beam_width"  :  20
+            , "frame_x_beam_height" :  20
+
+            , "frame_y_beam_length" : 400
+            , "frame_y_beam_width"  :  20
+            , "frame_y_beam_height" :  20
+
+            , "frame_support_width" :  20
+            , "frame_support_length": 550
+        },
+
+        "30x30": {
+              "z_axis_vertical_support_length" : 350
+            , "z_axis_vertical_support_width"  :  30
+            , "z_axis_vertical_support_height" :  30
+
+            , "frame_x_beam_length" : 400
+            , "frame_x_beam_width"  :  30
+            , "frame_x_beam_height" :  30
+
+            , "frame_y_beam_length" : 400
+            , "frame_y_beam_width"  :  30
+            , "frame_y_beam_height" :  30
+
+            , "frame_support_width" :  30
+            , "frame_support_length": 550
+
+        }
+    },
+    "fileFormatVersion": "1"
+}
